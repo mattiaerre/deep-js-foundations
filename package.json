@@ -1,0 +1,20 @@
+{
+  "name": "deep-js-foundations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format":
+      "prettier --single-quote --trailing-comma es5 --write \"{src,__{tests,mocks}__}/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "jest": "^21.1.0",
+    "prettier": "^1.7.0"
+  }
+}
